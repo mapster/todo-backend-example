@@ -18,10 +18,10 @@ externalize the datastore specific parts into a Repository-implementation (or si
 * Change the ```DATASTORE_NAMESPACE``` constant of the ```com.computas.gcloud.todo.facade.TodoResource``` class to your
     allotted namespace.
 * Add Google Cloud Datastore dependency to ```pom.xml```
-    ```		
-    <dependency>
-        <groupId>com.google.cloud</groupId>
-        <artifactId>google-cloud-datastore</artifactId>
-        <version>0.9.4-beta</version>
-    </dependency>
-    ```
+```		
+<dependency>
+    <groupId>com.google.cloud</groupId>
+    <artifactId>google-cloud-datastore</artifactId>
+    <version>0.9.4-beta</version>
+</dependency>
+```
