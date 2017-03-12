@@ -15,7 +15,8 @@ externalize the datastore specific parts into a Repository-implementation (or si
 
 ## Setup
 * Change the ```service``` property of ```src/appengine/app.yaml``` to your allotted namespace
-* Change the ```DATASTORE_NAMESPACE``` constant of the ```com.computas.gcloud.todo.facade.TodoResource``` class
+* Change the ```DATASTORE_NAMESPACE``` constant of the ```com.computas.gcloud.todo.facade.TodoResource``` class to your
+    allotted namespace.
 * Add Google Cloud Datastore dependency to ```pom.xml```
     ```		
     <dependency>
